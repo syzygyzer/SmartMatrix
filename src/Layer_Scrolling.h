@@ -86,7 +86,7 @@ class SMLayerScrolling : public SM_Layer {
         char text[textLayerMaxStringLength];
         unsigned char pixelsPerSecond = 30;
 
-        unsigned char textlen;
+        short textlen;
         volatile int scrollcounter = 0;
         const bitmap_font *scrollFont = &apple5x7;
 
